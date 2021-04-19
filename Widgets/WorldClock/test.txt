@@ -1,0 +1,6 @@
+Start of the FileWriteLine example, line 1. 
+Line 2
+This is line 3 as a new line was appended to the last FileWriteLine call.
+Line 4
+Line 5
+Start of the FileWriteLine example, line 1. 

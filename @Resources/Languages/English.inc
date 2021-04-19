@@ -1,0 +1,90 @@
+[Variables]
+langcode=en-us
+Settings=Settings
+Alternative=Alternative
+Close=Close
+AddItems=Add Items
+MoreActions=More Actions...
+Greetings=Greetings
+GoodMorning=Good morning
+GoodAfternoon=Good afternoon
+GoodEvening=Good evening
+AddAnother=Add Another
+Font=Font
+ColorText=Color
+Size=Size
+DPIScaleText=DPI Scale
+OpacityText=Opacity
+FormatText=Format
+UpdateAvailable=New update available! Click here to check it out
+visualizerhint=Note: Visualizer bars are only visible when sound is playing. Click here to dismiss this message.
+HideLabelsText=Hide Labels
+DarkModeText=Dark Mode
+24HCelsius=24H / Celsius
+;change to onoff=alt for international version
+OnOff=
+GetMoreExtras=Get more Extras and Widgets from ScreenStyler(cross-supported)
+SpecialPurpose=Special Purpose
+Widgets=Widgets
+Shortcuts=Shortcuts
+Extras=Extras
+About=About
+Web=Web
+Today=Today
+ApplyTheme=Apply Theme
+UnitsTooltip=For Time, Calendars and Weather
+Switches=Switches
+Calendar=Calendar
+Moon=Moon
+System=System
+Mode=Mode
+Greeter=Greeter
+Battery=Battery
+WorldClock=World Clock
+Library=Library
+Remote=Remote
+NotesText=Notes
+Photos=Photos
+Timer=Timer
+Weather=Weather
+DigitalClock=Digital Clock
+Clock=Clock
+FullMoon=Full Moon
+WaningGibbous=Waning Gibbous
+LastQuarter=Last Quarter
+WaningCrescent=Waning Crescent
+NewMoon=New Moon
+FirstQuarter=First Quarter
+WaxingGibbous=Waxing Gibbous
+WaxingCrescent=Waxing Crescent
+Home=At Home
+
+Lock=Lock
+Unlock=Unlock
+LightModeAt=Light Mode at
+DarkModeAt=Dark Mode at
+
+Missing1=If you see this message, it's likely your Antivirus blocked one or several important components
+Missing2=This Skin is installed in limited mode, and some features won't work. We highly recommend to whitelist the blocked apps. 
+Missing3=Click here for more info
+
+Donator=Contributor
+donate0=Support our work and get more stuff!
+donate1=These Widgets are reserved for people who have contributed to Big Sur and
+donate2=Omnimo. Help us with finding bugs, translations or donate to keep us online!
+
+OpacityText2=BG Opacity
+MakeYourOWn=Make Your Own
+Custom=Custom
+CountdownName=Countdown
+DateTimeName=Date
+
+
+Wallpaper=Use Wallpaper
+ChangeNews=Change News
+Till=Till
+
+NotesRename=Notes
+TimeZoneClock=Add a Timezone Clock
+selectlayout=Select a layout
+thankyou=Thank you!

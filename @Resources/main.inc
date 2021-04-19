@@ -1,0 +1,2 @@
+﻿[Variables]
+MainLanguage=English
