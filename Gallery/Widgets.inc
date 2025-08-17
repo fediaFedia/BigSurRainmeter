@@ -10,8 +10,8 @@ x=(25)*#scaledpi#
 
 
 [block]
-w=(58)*#scaledpi#
-h=(58)*#scaledpi#
+w=(65)*#scaledpi#
+h=(65)*#scaledpi#
 X=R
 y=r
 
@@ -20,11 +20,20 @@ ToolTipText=#currentsection#
 imagename=#@#\Graphics\Thumbs\#DarkMode#\#currentsection#.png
 MouseActionCursor=1
 
+
 [Multi]
 Meter=Image
 x=(225)*#scaledpi#
 y=(45)*#scaledpi#
 MeterStyle=block
+
+
+
+[CalendarBasic]
+Meter=Image
+MeterStyle=block
+LeftMouseUpAction=!ToggleConfig "BigSur\Widgets\Calendar" "Item.ini"
+
 
 [Calendar]
 Meter=Image
@@ -48,20 +57,21 @@ MeterStyle=block
 Meter=Image
 MeterStyle=block
 
-
 [MediaControl]
-Meter=Image
-MeterStyle=block
-
-[Moon]
 Meter=Image
 MeterStyle=block
 x=(225)*#scaledpi#
 y=(2)*#scaledpi#R
 
+
+[Moon]
+Meter=Image
+MeterStyle=block
+
 [MusicPicker]
 Meter=Image
 MeterStyle=block
+
 
 [Notes]
 Meter=Image
@@ -75,21 +85,21 @@ MeterStyle=block
 Meter=Image
 MeterStyle=block
 
+
 [Slideshow]
 Meter=Image
 MeterStyle=block
 
-
 [System]
-Meter=Image
-MeterStyle=block
-
-
-[Timer]
 Meter=Image
 MeterStyle=block
 x=(225)*#scaledpi#
 y=(2)*#scaledpi#R
+
+[Timer]
+Meter=Image
+MeterStyle=block
+
 
 [Toggles]
 Meter=Image
@@ -116,12 +126,12 @@ MeterStyle=block
 [HDD]
 Meter=Image
 MeterStyle=block
-
+x=(225)*#scaledpi#
+y=(2)*#scaledpi#R
 [RAm]
 Meter=Image
 MeterStyle=block
-x=(225)*#scaledpi#
-y=(2)*#scaledpi#R
+
 
 [CPU]
 Meter=Image
@@ -132,9 +142,11 @@ Meter=Image
 MeterStyle=block
 
 
-[DateTime]
+
+[DesktopSwitch]
 Meter=Image
 MeterStyle=block
+
 
 [TextClock]
 Meter=Image
@@ -144,8 +156,13 @@ MeterStyle=block
 Meter=Image
 MeterStyle=block
 
+[SunriseSunset]
+Meter=Image
+MeterStyle=block
+x=(225)*#scaledpi#
+y=(2)*#scaledpi#R
 
-[Countdown]
+[MultiDouble]
 Meter=Image
 MeterStyle=block
 

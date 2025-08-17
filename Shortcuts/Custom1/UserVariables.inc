@@ -1,4 +1,4 @@
 [Variables]
-PanelName=NAME HERE
+PanelName=Right-click!
 IconLocation=ReplaceThisPng.png
 PanelAction=#currentpath#

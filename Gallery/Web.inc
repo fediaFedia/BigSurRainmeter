@@ -9,8 +9,8 @@ x=(25)*#scaledpi#
 
 
 [block]
-w=(35)*#scaledpi#
-h=(35)*#scaledpi#
+w=(50)*#scaledpi#
+h=(50)*#scaledpi#
 X=(6)*#scaledpi#R
 y=r
 MouseActionCursor=1
@@ -19,7 +19,8 @@ imagename=#@#\Graphics\Structure\mini.png
 
 
 
-
+[tint]
+imagetint=#textcolor2#
 
 
 
@@ -175,8 +176,8 @@ MeterStyle=block
 
 
 [WebShortcut]
-w=(28)*#scaledpi#
-h=(28)*#scaledpi#
+w=(35)*#scaledpi#
+h=(35)*#scaledpi#
 X=(13)*#scaledpi#R
 y=r
 
@@ -202,8 +203,9 @@ Meter=Image
 MeterStyle=WebShortcut
 [Amazon]
 Meter=Image
-MeterStyle=WebShortcut
-imagetint=30,30,30
+MeterStyle=WebShortcut | tint
+
+
 [YouTube]
 Meter=Image
 MeterStyle=WebShortcut
@@ -245,8 +247,7 @@ Meter=Image
 MeterStyle=WebShortcut
 [Nytimes]
 Meter=Image
-MeterStyle=WebShortcut
-imagetint=30,30,30
+MeterStyle=WebShortcut | tint
 
 [Msnbc]
 Meter=Image
@@ -266,8 +267,7 @@ Meter=Image
 MeterStyle=WebShortcut
 [msn]
 Meter=Image
-MeterStyle=WebShortcut
-imagetint=30,30,30
+MeterStyle=WebShortcut | tint
 x=(228)*#scaledpi#
 y=(14)*#scaledpi#R
 
@@ -275,8 +275,7 @@ y=(14)*#scaledpi#R
 
 [usatoday]
 Meter=Image
-MeterStyle=WebShortcut
-imagetint=30,30,30
+MeterStyle=WebShortcut | tint
 
 [cnet]
 Meter=Image
@@ -287,8 +286,7 @@ MeterStyle=WebShortcut
 
 [9gag]
 Meter=Image
-MeterStyle=WebShortcut
-imagetint=30,30,30
+MeterStyle=WebShortcut | tint
 
 
 [geektyper]
@@ -296,8 +294,7 @@ Meter=Image
 MeterStyle=WebShortcut
 [wikipedia]
 Meter=Image
-MeterStyle=WebShortcut
-imagetint=30,30,30
+MeterStyle=WebShortcut | tint
 
 [Webmd]
 Meter=Image
@@ -309,8 +306,7 @@ Meter=Image
 MeterStyle=WebShortcut
 [Github]
 Meter=Image
-MeterStyle=WebShortcut
-imagetint=30,30,30
+MeterStyle=WebShortcut | tint
 
 
 [Engadget]
@@ -346,11 +342,9 @@ MeterStyle=WebShortcut
 
 
 
-[screenstyler]
+[ChatGPT]
 Meter=Image
-MeterStyle=WebShortcut
-
-
+MeterStyle=WebShortcut | tint
 
 [te]
 meter=string

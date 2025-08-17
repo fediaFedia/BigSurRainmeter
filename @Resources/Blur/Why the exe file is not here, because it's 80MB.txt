@@ -1,0 +1,10 @@
+Turns out blurring some regions on the wallpaper needs literal rocket science
+Compile it yourself or get it from the Github :P
+
+https://github.com/fediaFedia/BigSurLiquidGlass
+
+
+Install Python 3.11
+pip install opencv-python
+
+And maybe some others..

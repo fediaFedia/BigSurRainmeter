@@ -1,33 +1,35 @@
 
 
 [solA]
-Meter=Image
-solidcolor=0,255,0,1
+Meter=String
+solidcolor=0,0,0,1
 W=(#height#+(10-#Padding#)*2)*#ScaleDpi#
 H=(#height#+(10-#Padding#)*(3-#HideLabels#))*#ScaleDpi#
 x=0
 y=0
 
 
+[Shape]
+Meter=Shape
+Shape=Rectangle (10-#Padding#)*#ScaleDpi#,(10-#Padding#)*#ScaleDpi#,(#height#+#Padding#+#Padding#)*#ScaleDpi#,(#height#+#Padding#+#Padding#)*#ScaleDpi#,(#radius#)*#ScaleDpi#  | StrokeWidth #StrokeWidth# | Stroke LinearGradient StrokeGradient | Fill LinearGradient FillGradient
+FillGradient=#colorskinGradAngle# | #colorskin#,#opacity2# ; 0.0 | #colorskinGrad#,#opacity2# ; 1
+StrokeGradient=#StrokeAngle# | #StrokeColor#,#StrokeOpacity# ; 0.0 | #StrokeColorGrad#,#StrokeOpacity# ; 1
 
 
-
-
-[bgE]
+[Overlay]
 Meter=Image
-ImageName=#@#Graphics\Structure\regular.png
+ImageName=#@#Graphics\#Structure#\regular#darkmode#.png
 X=(10-#Padding#)*#ScaleDpi#
 Y=(10-#Padding#)*#ScaleDpi#
-W=(#height#)*#ScaleDpi#
-H=(#height#)*#ScaleDpi#
-ImageTint=#colorskin#,#opacity2#
+W=(#height#+#Padding#+#Padding#)*#ScaleDpi#
+H=(#height#+#Padding#+#Padding#)*#ScaleDpi#
+
 
 [Full]
 X=(10-#Padding#)*#ScaleDpi#
 Y=(10-#Padding#)*#ScaleDpi#
-W=(#height#)*#ScaleDpi#
-H=(#height#)*#ScaleDpi#
-
+W=(#height#+#Padding#+#Padding#)*#ScaleDpi#
+H=(#height#+#Padding#+#Padding#)*#ScaleDpi#
 
 
 
@@ -46,4 +48,5 @@ w=(#height#)*#ScaleDpi#
 x=(#height#/2+(10-#Padding#))*#ScaleDpi#
 MeterStyle=FontStyle
 Hidden=#HideLabels#
-fontcolor=#LabelColor#
+fontcolor=#LabelColor#,#LabelOpacity#
+InlineSetting=#InlineShadow#

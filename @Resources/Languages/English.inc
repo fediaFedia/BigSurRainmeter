@@ -1,5 +1,6 @@
 [Variables]
 langcode=en-us
+rsslink=https://www.theguardian.com/world/rss
 Settings=Settings
 Alternative=Alternative
 Close=Close
@@ -23,7 +24,7 @@ DarkModeText=Dark Mode
 24HCelsius=24H / Celsius
 ;change to onoff=alt for international version
 OnOff=
-GetMoreExtras=Get more Extras and Widgets from ScreenStyler(cross-supported)
+GetMoreExtras=
 SpecialPurpose=Special Purpose
 Widgets=Widgets
 Shortcuts=Shortcuts
@@ -88,3 +89,33 @@ NotesRename=Notes
 TimeZoneClock=Add a Timezone Clock
 selectlayout=Select a layout
 thankyou=Thank you!
+
+
+
+EditSmartStack=Edit Smart Stack
+SelectProgram=Select App
+TopStories=Top Stories
+News=News
+StyleText=Style
+PickStyle=Pick a Style and a Wallpaper
+OnlyWin11=Only works in Win11
+EnableTransparencyEffects=Enable Transparency Effects in the Control Panel
+LiquidGlass=Disable Blur
+WebShortcut=Web Shortcut
+Application=Application
+Shortcut=Shortcut
+Desktop=Desktop
+Help=Help
+Sleep=Sleep
+Logoff=Log off
+Shutdown=Shutdown
+Restart=Restart
+Hibernate=Hibernate
+Lock=Lock
+
+Sunrise=Sunrise
+Sunset=Sunset
+LanguageText=Language
+AdvancedStyle=Advanced Style
+
+ApplyBlur=Apply Blur (Need Plugin)

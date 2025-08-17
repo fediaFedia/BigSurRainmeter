@@ -1,4 +1,4 @@
 [Variables]
-PanelName=ScreenStyler
-IconLocation=#@#\Graphics\Apps\ScreenStyler.png
-PanelAction=%PROGRAMFILES(x86)%\ScreenStyler\screen-styler.exe
+PanelName=ChatGPT
+IconLocation=#@#\Graphics\Web\ChatGPT.png
+PanelAction=https://chatgpt.com

@@ -1,4 +1,4 @@
 [Variables]
 PanelName=7-zip
-IconLocation=#@#\Graphics\Apps\7-zip.png
+IconLocation=Icon.png
 PanelAction=7zFM.exe

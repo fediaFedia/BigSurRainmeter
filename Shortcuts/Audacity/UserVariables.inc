@@ -1,4 +1,4 @@
 [Variables]
-PanelName=Audacity
-IconLocation=#@#\Graphics\Apps\Audacity.png
-PanelAction=%PROGRAMFILES(x86)%\Audacity\audacity.exe
+PanelName=Visual Studio Code
+IconLocation=Icon.png
+PanelAction=C:\Program Files\Microsoft VS Code\Code.exe

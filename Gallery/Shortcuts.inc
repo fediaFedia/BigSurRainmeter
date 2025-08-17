@@ -9,8 +9,8 @@ x=(25)*#scaledpi#
 
 
 [block]
-w=(35)*#scaledpi#
-h=(35)*#scaledpi#
+w=(40)*#scaledpi#
+h=(40)*#scaledpi#
 X=(6)*#scaledpi#R
 y=r
 MouseActionCursor=1
@@ -158,7 +158,7 @@ MeterStyle=block
 
 
 
-[skype]
+[Telegram]
 Meter=Image
 MeterStyle=block
 
@@ -215,7 +215,7 @@ Meter=Image
 MeterStyle=block
 
 
-[screenstyler]
+[ChatGPT]
 Meter=Image
 MeterStyle=block
 
@@ -252,6 +252,11 @@ MeterStyle=block
 Meter=Image
 MeterStyle=block
 
+[SunriseSunset]
+Meter=Image
+MeterStyle=block
+LeftMouseUpAction=!ToggleConfig "BigSur\Widgets\#currentsection#" "Item3.ini"
+
 [Custom1]
 Meter=Image
 MeterStyle=block
@@ -274,13 +279,3 @@ LeftMouseUpAction=!ToggleConfig "BigSur\Shortcuts\#currentsection#" "Item3.ini"
 ToolTipText=#MakeYourOwn#
 
 
-[tu]
-meter=string
-MeterStyle=Default
-y=(12)*#scaledpi#R
-x=(225)*#scaledpi#
-fontcolor=#textcolor2#,100
-
-text=Tip: ScreenStyler has over 650 easy configurable actions!
-
-ToolTipText=We couldn't fit all of them here as there's hundreds of apps... Try it out!

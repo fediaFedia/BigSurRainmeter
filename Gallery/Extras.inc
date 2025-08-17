@@ -9,8 +9,8 @@ x=(25)*#scaledpi#
 
 
 [block]
-w=(130)*#scaledpi#
-h=(120)*#scaledpi#
+w=(105)*#scaledpi#
+h=(105)*#scaledpi#
 X=5R
 y=r
 
@@ -22,7 +22,7 @@ MouseActionCursor=1
 
 [ClockNews]
 Meter=Image
-x=(225)*#scaledpi#
+x=(245)*#scaledpi#
 y=(30)*#scaledpi#
 MeterStyle=block
 
@@ -38,20 +38,26 @@ MeterStyle=block
 [Visualizer]
 Meter=Image
 MeterStyle=block
-x=(225)*#scaledpi#
-y=5R
+
 
 [BgRounded]
 Meter=Image
 MeterStyle=block
+x=(245)*#scaledpi#
+y=5R
+
+[PowerButtons]
+Meter=Image
+MeterStyle=block
 
 
-[te]
-meter=string
-MeterStyle=Default
-y=(10)*#scaledpi#R
-x=(225)*#scaledpi#
-fontsize=(10)*#scaledpi#
-text=#GetMoreExtras#
-LeftMouseUpACtion=!execute ["https://screenstyler.com/?ref=bigsurextras"]
-MouseActionCursor=1
+
+// Hide the Blur setting if not on Windows 11
+[MeasureOSVersion]
+Measure=SysInfo
+SysInfoType=OS_VERSION
+UpdateDivider=-1
+Substitute="Windows ":""
+IfCondition=[MeasureOSVersion] < 11
+IfTrueAction=[!HideMeter BackgroundBlur][!Redraw]
+DynamicVariables=1
