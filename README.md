@@ -19,6 +19,9 @@ Enjoy
 
 # LIQUID GLASS BLUR TOOL:
 
+Install this if you want a blur effect for the Widgets: https://github.com/fediaFedia/BigSurLiquidGlass/releases
+![Preview](https://github.com/fediaFedia/BigSurLiquidGlass/blob/main/preview.png)
+
 # FEATURES IN 2.1:
 
 To celebrate the return of Windows (Vista) Aero (in the form of Liquid Glass on macOS Tahoe / 26)...
