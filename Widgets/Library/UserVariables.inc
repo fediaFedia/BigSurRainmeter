@@ -1,0 +1,15 @@
+[Variables]
+LibraryName=#Library#
+App1Icon=#@#\Graphics\Icons\chrome.png
+App2Icon=#@#\Graphics\Apps\calculator.png
+App3Icon=#@#\Graphics\Icons\steam.png
+App4Icon=#@#\Graphics\Icons\files.png
+App5Icon=#@#\Graphics\Icons\word.png
+App6Icon=#@#\Graphics\Icons\photoshop.png
+App1Action=chrome.exe
+App2Action=calc.exe
+App3Action=steam.exe
+App4Action=explorer.exe
+App5Action=winword.exe
+App6Action=photoshop.exe
+Height=150

@@ -1,0 +1,19 @@
+You can change the color of any widget, right-click and go to Settings and press on color
+You can close any item by middle-mouse-clicking it
+Press CTRL and ALT at the same time on your keyboard, then click something to move items
+Right-click any item and select the Settings item for additional options, like color
+If an item with a web feed stops working for no reason, restart Rainmeter
+If you like your desktop layout, use the Save Layout tool to save it and even share it
+Create your own Widgets on ScreenStyler.com
+Many items have additional variants, right-click the item to select an Alternative
+You can customize many aspects of the Items in the UI Settings
+Keep rainmeter up to date for better stability
+BigSur updates are announced on omnimo.info
+Re-enable the + button: right-click the Rainmeter tray icon, Skins > BigSur > Launcher.ini
+Conserve performance by using less realtime items
+There are some items not shown in the gallery, use the context menus to access them
+If your item doesn't snap very well, hold Shift and drag it for a perfect position
+Use the Alignment Tool to arrange your items to a perfect grid
+If some items don't show information - try refreshing them by right clicking
+You can change the language of BigSur in the Settings
+Interesting fact - BigSur is based on Omnimo
