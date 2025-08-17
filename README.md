@@ -13,7 +13,7 @@ __It also uses like 40MB of RAM and 0-1% CPU on my Core i5 Laptop, can't say the
 
 1. Download https://www.rainmeter.net/
 2. Install Rainmeter 
-3. Download BigSur26.rmskin from Releases and double click it
+3. Download [BigSur26.rmskin](https://github.com/fediaFedia/BigSurRainmeter/releases/tag/Release) from Releases and double click it
 
 Enjoy 
 
