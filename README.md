@@ -22,7 +22,6 @@ Enjoy
 Install this if you want a blur effect for the Widgets: https://github.com/fediaFedia/BigSurLiquidGlass/releases
 ![Preview](https://github.com/fediaFedia/BigSurLiquidGlass/blob/main/preview.png)
 
-# FEATURES IN 2.1:
+# FEATURES IN 1.3.1:
 
-To celebrate the return of Windows (Vista) Aero (in the form of Liquid Glass on macOS Tahoe / 26)...
-Lots of exciting new things, while keeping most (all) of the things we (I) love about the project:
+Check the [releases](https://github.com/fediaFedia/BigSurRainmeter/releases) page to see the details
