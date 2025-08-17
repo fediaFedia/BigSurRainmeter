@@ -3,7 +3,7 @@ BigSur 26 for Rainmeter
 ![Preview](https://github.com/fediaFedia/BigSurRainmeter/blob/main/preview.png)
 
 What is it?
-It's a Rainmeter Suite (https://www.rainmeter.net/), which, and I have heard is quite fantastic.
+It's a free Rainmeter Suite (https://www.rainmeter.net/), which, and I have heard is quite fantastic.
 Dozens of beautiful Widgets with Small, Medium and Large sizes inspired by Apple's UI.
 
 Give it a try to make your Windows (XP/Vista/7/8/10/11) Desktop look like macOS Tahoe!
