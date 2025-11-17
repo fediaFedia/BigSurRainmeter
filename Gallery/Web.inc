@@ -9,13 +9,14 @@ x=(25)*#scaledpi#
 
 
 [block]
-w=(50)*#scaledpi#
-h=(50)*#scaledpi#
+w=(42)*#scaledpi#
+h=(42)*#scaledpi#
 X=(6)*#scaledpi#R
 y=r
 MouseActionCursor=1
-imagename=#@#\Graphics\Structure\mini.png
-
+imagename=#@#\Graphics\mini.png
+imagealpha=100
+imagetint=#colorskin#
 
 
 
@@ -360,14 +361,31 @@ x=(225)*#scaledpi#
 y=(5)*#scaledpi#R
 imagename=#skinspath#\bigsur\Web\#currentsection#\ReplaceThisPng.png
 LeftMouseUpAction=!ToggleConfig "BigSur\Web\#currentsection#" "Item3.ini"
+ImageTint=#IconTintSpecial#
+
 [Custom2]
 Meter=Image
 MeterStyle=block
 imagename=#skinspath#\bigsur\Web\#currentsection#\ReplaceThisPng.png
 LeftMouseUpAction=!ToggleConfig "BigSur\Web\#currentsection#" "Item3.ini"
-
+ImageTint=#IconTintSpecial#
 [Custom3]
 Meter=Image
 MeterStyle=block
 imagename=#skinspath#\bigsur\Web\#currentsection#\ReplaceThisPng.png
 LeftMouseUpAction=!ToggleConfig "BigSur\Web\#currentsection#" "Item3.ini"
+ImageTint=#IconTintSpecial#
+
+[Custom4]
+Meter=Image
+MeterStyle=block
+imagename=#skinspath#\bigsur\Web\#currentsection#\ReplaceThisPng.png
+LeftMouseUpAction=!ToggleConfig "BigSur\Web\#currentsection#" "Item3.ini"
+ImageTint=#IconTintSpecial#
+
+[Custom5]
+Meter=Image
+MeterStyle=block
+imagename=#skinspath#\bigsur\Web\#currentsection#\ReplaceThisPng.png
+LeftMouseUpAction=!ToggleConfig "BigSur\Web\#currentsection#" "Item3.ini"
+ImageTint=#IconTintSpecial#

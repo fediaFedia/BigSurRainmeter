@@ -23,8 +23,6 @@
 ; https://www.latlong.net/
 ; https://www.mapcoordinates.net
 
-Latitude=
-Longitude=
 
 ; Language used for string and date values returned in the data.
 ; If another language is desired the correct code can be found at:
@@ -63,4 +61,6 @@ UserAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Fire
 CommonSubstitute='"':"","^null$":"","\\u002F":"/","\\u005C":"\","\\u003C":"<","\\u003E":">"
 URLSite=https://api.weather.com/v3/aggcommon/v3-wx-observations-current;v3-wx-forecast-daily-15day;v3alertsHeadlines;v3-location-point?format=json&geocode=#Latitude#,#Longitude#&units=#Units#&language=#Language#&apiKey=#APIKey#
 LocationCode=
+
+HideWeatherPreload=1
 colorskin=6,100,145

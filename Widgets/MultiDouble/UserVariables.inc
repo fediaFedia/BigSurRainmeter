@@ -8,15 +8,16 @@ ChangedTo=1
 Height=150
 WorldClockEnabled=50
 CalendarEnabled=50
-MoonEnabled=255
+MoonEnabled=50
 WeatherEnabled=255
-RSSEnabled=50
+RSSEnabled=255
 NotesEnabled=50
 SlideshowEnabled=50
-SystemEnabled=50
-BatteryEnabled=50
+SystemEnabled=255
+BatteryEnabled=255
 PickerEnabled=255
 SwitchInterval=30
+PicturesFolder=%USERPROFILE%\Pictures
 
 [Lua]
 ;Custom text for Weekday labels. Uses the following format: Sun|Mon|Tue|Wed|Thu|Fri|Sat

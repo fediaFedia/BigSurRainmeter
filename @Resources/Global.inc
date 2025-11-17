@@ -1,7 +1,7 @@
 [Variables]
-Version=1.3.1
+Version=1.4.0
 MainLanguage=English
-globalblurenable=0
+globalblurenable=1
 Structure=Structure
 blurcornerradius=35
 Padding=0
@@ -20,7 +20,7 @@ ttgallerystyle=dark
 OnOff=
 textcolor2=255,255,255
 colorskin2=0,0,0
-InlineShadow=Shadow | 2 | 2 | 3.5 | 0,0,0,150
+InlineShadow=
 HideUnits=1
 DisplayAMPM=1
 TimeFormat=%H:%M
@@ -42,17 +42,30 @@ IconGreyscale=0
 SelectedStyle=Dark
 
 StrokeWidth=0
-StrokeColor=200,200,200
+StrokeColor=30,30,30,100
 StrokeOpacity=255
+WidgetShadow=1
 
-
-colorskinGrad=#ColorSkin#
-colorskinGradAngle=90
-StrokeColorGrad=#StrokeColor#
-StrokeAngle=90
+colorskinGrad=30,30,30
+colorskinGradAngle=135
+StrokeColorGrad=255,255,255,200
+StrokeAngle=235
 ExtrasColor=255,255,255
 ExtrasOpacity=100
-Latitude=8.684170
+Latitude=50.110924
+Longitude=8.682127
+radiusBlurApp=23
+paddingBlurApp=10
+
+
+BlurIntensity=4
+BlurNoResize=0
+BlurZoom=1
+BlurImagePath=
+BlurDisabled=1
+StrokeColorAngle=90
+IconTintSpecial=
+FastBlur=1
 
 [Default]
 FontColor=#textcolor2#
@@ -60,3 +73,4 @@ FontFace=#ThemeFont#
 FontSize=(11)*#scaledpi#
 StringAlign=LEFT
 AntiAlias=1
+InlineSetting=#InlineShadow#

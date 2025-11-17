@@ -1,0 +1,6 @@
+If you'd like to translate this project, edit English.inc with Notepad and write your translations on the right.
+Or run it through some AI tool and then correct it.
+
+Send your translation to us on Discord if you want it to be included in the project :)
+
+https://discord.com/channels/715641944390238348/720393342524981280

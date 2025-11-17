@@ -1,0 +1,6 @@
+If your Weather is not working, make sure the correct GPS coordinates are put in.
+Just google for some website that can find it for you, like latlong.net
+
+If the weather is still not working, check for updates on our Discord #downloads: 
+
+https://discord.com/channels/715641944390238348/743915711914574004

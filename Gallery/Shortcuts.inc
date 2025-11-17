@@ -219,6 +219,15 @@ MeterStyle=block
 Meter=Image
 MeterStyle=block
 
+[ClipStudioPaint]
+Meter=Image
+MeterStyle=block
+
+
+[VisualStudio]
+Meter=Image
+MeterStyle=block
+
 [te]
 meter=string
 MeterStyle=Default
@@ -264,6 +273,7 @@ MeterStyle=block
 imagename=#skinspath#\bigsur\Shortcuts\#currentsection#\ReplaceThisPng.png
 LeftMouseUpAction=!ToggleConfig "BigSur\Shortcuts\#currentsection#" "Item3.ini"
 ToolTipText=#MakeYourOwn#
+
 [Custom2]
 Meter=Image
 MeterStyle=block
@@ -277,5 +287,15 @@ MeterStyle=block
 imagename=#skinspath#\bigsur\Shortcuts\#currentsection#\ReplaceThisPng.png
 LeftMouseUpAction=!ToggleConfig "BigSur\Shortcuts\#currentsection#" "Item3.ini"
 ToolTipText=#MakeYourOwn#
+
+
+[Custom4]
+Meter=Image
+MeterStyle=block
+imagename=#skinspath#\bigsur\Shortcuts\#currentsection#\ReplaceThisPng.png
+LeftMouseUpAction=!ToggleConfig "BigSur\Shortcuts\#currentsection#" "Item3.ini"
+ToolTipText=#MakeYourOwn#
+
+
 
 

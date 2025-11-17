@@ -9,7 +9,7 @@ RSS4=http://rss.cnn.com/rss/edition.rss
 RSS4Name=CNN News
 RSS5=http://www.engadget.com/rss.xml
 RSS5Name=Engadget
-RSSMain=http://lenta.ru/rss/news
+RSSMain=https://www.theguardian.com/world/rss
 RSSMainName=CNBC
 Height=150
 

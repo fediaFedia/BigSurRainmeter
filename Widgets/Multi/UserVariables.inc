@@ -17,6 +17,7 @@ NotesEnabled=50
 SlideshowEnabled=50
 PickerEnabled=255
 SwitchInterval=20
+PicturesFolder=%USERPROFILE%\Pictures
 
 [Lua]
 ;Custom text for Weekday labels. Uses the following format: Sun|Mon|Tue|Wed|Thu|Fri|Sat

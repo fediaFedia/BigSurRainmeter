@@ -4,7 +4,7 @@ Meter=String
 MeterStyle=Side
 Text=#About#
 Hidden=0
-Y=(254)*#scaledpi#
+Y=(361)*#scaledpi#
 x=(25)*#scaledpi#
 
 

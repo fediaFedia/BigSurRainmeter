@@ -118,4 +118,27 @@ Sunset=Sunset
 LanguageText=Language
 AdvancedStyle=Advanced Style
 
-ApplyBlur=Apply Blur (Need Plugin)
+ApplyBlur=Apply Blur
+EnableBlur=Blur (BETA)
+Style=Style
+TintOpacity=Tint Opacity
+ColorTint=Tint Color
+WeatherGps=Weather GPS
+WeatherNotWorking=Weather not working?
+CustomizeMore=(More options will be shown in the "Styles" section later)
+
+GetGPS=Get GPS
+Light=Light
+Dark=Dark
+Glass=Glass
+DarkGlass=DarkGlass
+Tinted=Tinted
+LeftAlign=Left Align
+RightAlign=Right Align
+CenterAlign=Center Align
+RefreshAll=Refresh All
+
+SetFolder=Click here to set Pictures folder
+NoPictures=No pictures found
+SetOutput=Set Sound output to:
+ToggleMute=Toggle Mute

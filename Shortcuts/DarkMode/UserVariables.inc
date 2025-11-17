@@ -8,8 +8,6 @@ DockLight=Big Sur Light
 SunriseSunset=1
 MinutesHourMinute1=350
 DarkMode1=0
-Latitude=
-Longitude=
 
 ;Your Antivirus likely blocked the easy configuration tool, how unlucky for you! Fortunately you can still edit the above value.
 ;Refresh the skin after saving this file.

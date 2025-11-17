@@ -3,3 +3,7 @@ SoundFile=%WINDIR%\media\tada.wav
 AdditionalAction=
 PlaySound=1
 Height=150
+Timer4=30
+Timer2=5
+Timer1=1
+Timer3=15
