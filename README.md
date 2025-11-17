@@ -19,4 +19,4 @@ Enjoy
 
 # FEATURES IN 1.4.0:
 
-Check the [releases](https://github.com/fediaFedia/BigSurRainmeter/releases) page to see the details
+Check the [releases]([https://github.com/fediaFedia/BigSurRainmeter/releases](https://github.com/fediaFedia/BigSurRainmeter/releases)) page to see the details
