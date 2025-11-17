@@ -1,6 +1,6 @@
 BigSur 26 for Rainmeter
 =======================
-![Preview](https://github.com/fediaFedia/BigSurRainmeter/blob/main/preview.png)
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/53571889-9a99-4108-826c-27532863a941" />
 
 What is it?
 It's a free Rainmeter Suite (https://www.rainmeter.net/), which, and I have heard is quite fantastic.
