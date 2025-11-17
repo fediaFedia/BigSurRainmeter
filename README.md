@@ -17,11 +17,6 @@ __It also uses like 40MB of RAM and 0-1% CPU on my Core i5 Laptop, can't say the
 
 Enjoy 
 
-# LIQUID GLASS BLUR TOOL:
-
-Install this if you want a blur effect for the Widgets: https://github.com/fediaFedia/BigSurLiquidGlass/releases
-![Preview](https://github.com/fediaFedia/BigSurLiquidGlass/blob/main/preview.png)
-
-# FEATURES IN 1.3.1:
+# FEATURES IN 1.4.0:
 
 Check the [releases](https://github.com/fediaFedia/BigSurRainmeter/releases) page to see the details
