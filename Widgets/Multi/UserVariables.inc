@@ -20,7 +20,7 @@ Switch Interval=20
 Pictures Folder=%USERPROFILE%\Pictures
 Slideshow Speed=5
 Show Filename=#Photos#
-
+Keep Aspect Ratio=2
 
 [Lua]
 ;Custom text for Weekday labels. Uses the following format: Sun|Mon|Tue|Wed|Thu|Fri|Sat
