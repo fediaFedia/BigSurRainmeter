@@ -6,18 +6,21 @@ Style=Default
 StartOnMonday=1
 ChangedTo=1
 Height=150
-BatteryEnabled=50
+BatteryEnabled=255
 SystemEnabled=255
 CalendarEnabled=50
 ClockEnabled=50
 GreeterEnabled=255
 WeatherEnabled=255
 TogglesEnabled=255
-NotesEnabled=50
+NotesEnabled=255
 SlideshowEnabled=50
 PickerEnabled=255
-SwitchInterval=20
-PicturesFolder=%USERPROFILE%\Pictures
+Switch Interval=20
+Pictures Folder=%USERPROFILE%\Pictures
+Slideshow Speed=5
+Show Filename=#Photos#
+
 
 [Lua]
 ;Custom text for Weekday labels. Uses the following format: Sun|Mon|Tue|Wed|Thu|Fri|Sat
