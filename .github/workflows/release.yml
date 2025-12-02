@@ -41,16 +41,16 @@ jobs:
       - name: Create ZIP archive
         run: |
           cd package
-          zip -r "../BigSur26-Release-${{ steps.version }}.zip" .
+          zip -r "../BigSur26-Release-${{ steps.version.outputs.version }}.zip" .
 
       - name: Rename ZIP to RMSKIN
-        run: mv "BigSur26-Release-${{ steps.version }}.zip" "BigSur26-Release-${{ steps.version }}.rmskin"
+        run: mv "BigSur26-Release-${{ steps.version.outputs.version }}.zip" "BigSur26-Release-${{ steps.version.outputs.version }}.rmskin"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          name: "v${{ steps.version }}"
-          tag_name: "v${{ steps.version }}"
-          files: "BigSur26-Release-${{ steps.version }}.rmskin"
+          name: "v${{ steps.version.outputs.version }}"
+          tag_name: "v${{ steps.version.outputs.version }}"
+          files: "BigSur26-Release-${{ steps.version.outputs.version }}.rmskin"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
