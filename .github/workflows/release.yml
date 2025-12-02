@@ -28,7 +28,11 @@ jobs:
           mkdir package/BigSur/Skins
           mkdir package/BigSur/Skins/BigSur
           # Copy only the files you want in the RMSKIN package:
-          cp -r RMSKIN package/BigSur
+          cp -r RMSKIN/Addons -r package/BigSur/Addons
+          cp -r RMSKIN/Plugins -r package/BigSur/Plugins
+          cp -r RMSKIN/Themes -r package/BigSur/Themes
+          cp -r RMSKIN/Rainstaller.bmp -r package/BigSur/Rainstaller.bmp
+          cp -r RMSKIN/Rainstaller.cfg -r package/BigSur/Rainstaller.cfg
           cp @Resources -r package/BigSur/Skins/BigSur
           cp Extras -r package/BigSur/Skins/BigSur
           cp Gallery -r package/BigSur/Skins/BigSur
@@ -37,6 +41,11 @@ jobs:
           cp Widgets -r package/BigSur/Skins/BigSur
           cp Launcher.ini package/BigSur/Skins/BigSur
           cp LauncherToggle.ini package/BigSur/Skins/BigSur
+          
+      - name: Update Rainstaller.cfg version
+        run: |
+          CONFIG_FILE="package/BigSur/Rainstaller.cfg"
+          sed -i "s/^Version=.*/Version=${{ steps.version.outputs.version }}/" "$CONFIG_FILE"
 
       - name: Create ZIP archive
         run: |
