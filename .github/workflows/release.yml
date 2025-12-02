@@ -2,31 +2,29 @@ name: Build RMSKIN Release
 
 on:
   workflow_dispatch:
-    inputs:
-      publish:
-        description: "Publish release?"
-        required: true
-        default: "yes"
 
-if: ${{ github.event.inputs.publish == 'yes' }}:
+jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
-        
+
       - name: Extract version from global.inc
         id: version
         run: |
-          # Read the Version value from the Variables section
           VERSION=$(grep -E '^Version=' "@Resources/global.inc" | cut -d'=' -f2)
+          if [ -z "$VERSION" ]; then
+            echo "Version not found in @Resources/global.inc"
+            exit 1
+          fi
           echo "version=$VERSION" >> $GITHUB_OUTPUT
-          
-      - name: Show version (debug)
-        run: echo "Version detected: ${{ steps.version.outputs.version }}"
-        
-      - name: Prepare packaging directory
+
+      - name: Display detected version
+        run: echo "✔ Version detected: ${{ steps.version.outputs.version }}"
+
+      - name: Prepare package
         run: |
           mkdir package
           # Copy only the files you want in the RMSKIN package:
@@ -40,8 +38,6 @@ if: ${{ github.event.inputs.publish == 'yes' }}:
           cp Widgets -r package/BigSur/Skins/BigSur
           cp Launcher.ini package/BigSur/Skins/BigSur
           cp LauncherToggle.ini package/BigSur/Skins/BigSur
-          
-          # Add more cp commands as needed
 
       - name: Create ZIP archive
         run: |
