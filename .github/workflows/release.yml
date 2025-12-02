@@ -16,7 +16,7 @@ jobs:
         run: |
           VERSION=$(grep -E '^Version=' "@Resources/global.inc" | cut -d'=' -f2)
           if [ -z "$VERSION" ]; then
-            echo "Version not found in @Resources/global.inc"
+            echo "Version not found in @Resources/Global.inc"
             exit 1
           fi
           echo "version=$VERSION" >> $GITHUB_OUTPUT
