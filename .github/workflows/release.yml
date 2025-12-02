@@ -8,55 +8,54 @@ on:
         required: true
         default: "yes"
 
-if: ${{ github.event.inputs.publish == 'yes' }}
-    jobs:
-      build:
-        runs-on: ubuntu-latest
+if: ${{ github.event.inputs.publish == 'yes' }}:
+  build:
+    runs-on: ubuntu-latest
 
-        steps:
-          - name: Checkout repo
-            uses: actions/checkout@v4
-            
-          - name: Extract version from global.inc
-            id: version
-            run: |
-              # Read the Version value from the Variables section
-              VERSION=$(grep -E '^Version=' "@Resources/global.inc" | cut -d'=' -f2)
-              echo "version=$VERSION" >> $GITHUB_OUTPUT
-              
-          - name: Show version (debug)
-            run: echo "Version detected: ${{ steps.version.outputs.version }}"
-            
-          - name: Prepare packaging directory
-            run: |
-              mkdir package
-              # Copy only the files you want in the RMSKIN package:
-              cp -r RMSKIN package/BigSur
-              cp Readme.txt package/BigSur
-              cp @Resources -r package/BigSur/Skins/BigSur
-              cp Extras -r package/BigSur/Skins/BigSur
-              cp Gallery -r package/BigSur/Skins/BigSur
-              cp Shortcuts -r package/BigSur/Skins/BigSur
-              cp Web -r package/BigSur/Skins/BigSur
-              cp Widgets -r package/BigSur/Skins/BigSur
-              cp Launcher.ini package/BigSur/Skins/BigSur
-              cp LauncherToggle.ini package/BigSur/Skins/BigSur
-              
-              # Add more cp commands as needed
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        
+      - name: Extract version from global.inc
+        id: version
+        run: |
+          # Read the Version value from the Variables section
+          VERSION=$(grep -E '^Version=' "@Resources/global.inc" | cut -d'=' -f2)
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          
+      - name: Show version (debug)
+        run: echo "Version detected: ${{ steps.version.outputs.version }}"
+        
+      - name: Prepare packaging directory
+        run: |
+          mkdir package
+          # Copy only the files you want in the RMSKIN package:
+          cp -r RMSKIN package/BigSur
+          cp Readme.txt package/BigSur
+          cp @Resources -r package/BigSur/Skins/BigSur
+          cp Extras -r package/BigSur/Skins/BigSur
+          cp Gallery -r package/BigSur/Skins/BigSur
+          cp Shortcuts -r package/BigSur/Skins/BigSur
+          cp Web -r package/BigSur/Skins/BigSur
+          cp Widgets -r package/BigSur/Skins/BigSur
+          cp Launcher.ini package/BigSur/Skins/BigSur
+          cp LauncherToggle.ini package/BigSur/Skins/BigSur
+          
+          # Add more cp commands as needed
 
-          - name: Create ZIP archive
-            run: |
-              cd package
-              zip -r "../BigSur26-Release-${{ steps.version.outputs.version }}.zip" .
+      - name: Create ZIP archive
+        run: |
+          cd package
+          zip -r "../BigSur26-Release-${{ steps.version.outputs.version }}.zip" .
 
-          - name: Rename ZIP to RMSKIN
-            run: mv "BigSur26-Release-${{ steps.version.outputs.version }}.zip" "BigSur26-Release-${{ steps.version.outputs.version }}.rmskin"
+      - name: Rename ZIP to RMSKIN
+        run: mv "BigSur26-Release-${{ steps.version.outputs.version }}.zip" "BigSur26-Release-${{ steps.version.outputs.version }}.rmskin"
 
-          - name: Create GitHub Release
-            uses: softprops/action-gh-release@v2
-            with:
-              name: "v${{ steps.version.outputs.version }}"
-              tag_name: "v${{ steps.version.outputs.version }}"
-              files: "BigSur26-Release-${{ steps.version.outputs.version }}.rmskin"
-            env:
-              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "v${{ steps.version.outputs.version }}"
+          tag_name: "v${{ steps.version.outputs.version }}"
+          files: "BigSur26-Release-${{ steps.version.outputs.version }}.rmskin"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
