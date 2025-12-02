@@ -14,7 +14,7 @@ jobs:
       - name: Extract version from global.inc
         id: version
         run: |
-          VERSION=$(grep -E '^Version=' "@Resources/global.inc" | cut -d'=' -f2)
+          VERSION=$(grep -E '^Version=' "@Resources/Global.inc" | cut -d'=' -f2)
           if [ -z "$VERSION" ]; then
             echo "Version not found in @Resources/Global.inc"
             exit 1
