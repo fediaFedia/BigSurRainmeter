@@ -20,10 +20,7 @@ jobs:
             exit 1
           fi
           echo "version=$VERSION" >> $GITHUB_OUTPUT
-
-      - name: Display detected version
-        run: echo "✔ Version detected: ${{ steps.version }}"
-
+          
       - name: Prepare package
         run: |
           mkdir package
