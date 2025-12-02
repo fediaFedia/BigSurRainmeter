@@ -1,5 +1,5 @@
 [Variables]
-Version=1.4.0
+Version=1.4.3
 MainLanguage=English
 globalblurenable=1
 Structure=Structure
