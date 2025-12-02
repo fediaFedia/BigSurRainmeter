@@ -26,7 +26,6 @@ jobs:
           mkdir package
           # Copy only the files you want in the RMSKIN package:
           cp -r RMSKIN package/BigSur
-          cp Readme.txt package/BigSur
           cp @Resources -r package/BigSur/Skins/BigSur
           cp Extras -r package/BigSur/Skins/BigSur
           cp Gallery -r package/BigSur/Skins/BigSur
