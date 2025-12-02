@@ -23,6 +23,7 @@ jobs:
           
       - name: Prepare package
         run: |
+          mkdir package
           mkdir package/BigSur
           mkdir package/BigSur/Skins/BigSur
           # Copy only the files you want in the RMSKIN package:
