@@ -138,7 +138,7 @@ RightAlign=Right Align
 CenterAlign=Center Align
 RefreshAll=Refresh All
 
-SetFolder=Click here to set Pictures folder
+SetFolder=Right-click to set Folder in Settings
 NoPictures=No pictures found
 SetOutput=Set Sound output to:
 ToggleMute=Toggle Mute
