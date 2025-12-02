@@ -1,0 +1,37 @@
+name: Build RMSKIN Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Prepare packaging directory
+        run: |
+          mkdir package
+          # Copy only the files you want in the RMSKIN package:
+          cp -r RMSKIN/
+          cp Readme.txt package/
+          # Add more cp commands as needed
+
+      - name: Create ZIP archive
+        run: |
+          cd package
+          zip -r ../BigSur26.zip .
+
+      - name: Rename ZIP to RMSKIN
+        run: mv BigSur26.zip BigSur26.rmskin
+
+      - name: Upload release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: BigSur26.rmskin
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
