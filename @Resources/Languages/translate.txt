@@ -1,5 +1,5 @@
 If you'd like to translate this project, edit English.inc with Notepad and write your translations on the right.
-Or run it through some AI tool and then correct it.
+Or run it through some AI tool and then correct it, but please check it!
 
 Send your translation to us on Discord if you want it to be included in the project :)
 
