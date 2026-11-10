@@ -1,4 +1,5 @@
 [Variables]
+ScaleDPI=#ScaleDpi#
 
 ItemSize=400
 HUEColor=0

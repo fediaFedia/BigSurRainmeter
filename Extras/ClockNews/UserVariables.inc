@@ -1,7 +1,10 @@
 [Variables]
-RSSMain=https://www.theguardian.com/world/rss
+ScaleDPI=#ScaleDpi#
+RSSMain=https://www.theguardian.com/world/rss  
 ItemSize=400
 DisableNews=
-DateLayout=%1, %2 %3                                                                   
+DateLayout=%1, %2 %3                                                                           
 last=1
-@include3=getReddit.inc
+OpacityText=227
+Height=160
+RSSMainName=Google News

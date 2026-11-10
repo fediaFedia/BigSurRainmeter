@@ -1,0 +1,9 @@
+[Variables]
+ScaleDPI=#ScaleDpi#
+ClockName1=#24Hour#
+ClockStyle=Blur
+CityName1=Tokyo
+CityZone1=+7.0
+ShowSeconds=60
+NightEnds=
+NightStarts=

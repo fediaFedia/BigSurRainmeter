@@ -1,0 +1,10 @@
+[Variables]
+ScaleDPI=#ScaleDpi#
+ClockName1=#24Hour#
+ClockStyle=Blur
+ClockName=#24Hour#
+CityName1=
+CityZone1=
+ShowSeconds=60
+NightEnds=
+NightStarts=

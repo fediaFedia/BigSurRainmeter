@@ -1,4 +1,5 @@
 [Variables]
+ScaleDPI=#ScaleDpi#
 Name1=web
 Action1=http://google.com
 Name2=social

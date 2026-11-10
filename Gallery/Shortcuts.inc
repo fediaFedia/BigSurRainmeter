@@ -14,7 +14,7 @@ h=(40)*#scaledpi#
 X=(6)*#scaledpi#R
 y=r
 MouseActionCursor=1
-LeftMouseUpAction=!ToggleConfig "BigSur\Shortcuts\#currentsection#" "Item3.ini"
+LeftMouseUpAction=!ToggleConfig "BigSur\Widgets\Mini\Shortcuts\#currentsection#" "Item.ini"
 ToolTipText=#currentsection#
 imagename=#@#\Graphics\Thumbs\Shortcuts\#currentsection#.png
 
@@ -241,9 +241,6 @@ MeterStyle=block
 x=(225)*#scaledpi#
 y=(5)*#scaledpi#R
 
-[Calendar]
-Meter=Image
-MeterStyle=block
 
 
 
@@ -261,39 +258,35 @@ MeterStyle=block
 Meter=Image
 MeterStyle=block
 
-[SunriseSunset]
-Meter=Image
-MeterStyle=block
-LeftMouseUpAction=!ToggleConfig "BigSur\Widgets\#currentsection#" "Item3.ini"
 
 [Custom1]
 Meter=Image
 MeterStyle=block
 
-imagename=#skinspath#\bigsur\Shortcuts\#currentsection#\ReplaceThisPng.png
-LeftMouseUpAction=!ToggleConfig "BigSur\Shortcuts\#currentsection#" "Item3.ini"
+imagename=#skinspath#\bigsur\Widgets\Mini\Shortcuts\#currentsection#\ReplaceThisPng.png
+LeftMouseUpAction=!ToggleConfig "BigSur\Widgets\Mini\Shortcuts\#currentsection#" "Item.ini"
 ToolTipText=#MakeYourOwn#
 
 [Custom2]
 Meter=Image
 MeterStyle=block
-imagename=#skinspath#\bigsur\Shortcuts\#currentsection#\ReplaceThisPng.png
-LeftMouseUpAction=!ToggleConfig "BigSur\Shortcuts\#currentsection#" "Item3.ini"
+imagename=#skinspath#\bigsur\Widgets\Mini\Shortcuts\#currentsection#\ReplaceThisPng.png
+LeftMouseUpAction=!ToggleConfig "BigSur\Widgets\Mini\Shortcuts\#currentsection#" "Item.ini"
 ToolTipText=#MakeYourOwn#
 
 [Custom3]
 Meter=Image
 MeterStyle=block
-imagename=#skinspath#\bigsur\Shortcuts\#currentsection#\ReplaceThisPng.png
-LeftMouseUpAction=!ToggleConfig "BigSur\Shortcuts\#currentsection#" "Item3.ini"
+imagename=#skinspath#\bigsur\Widgets\Mini\Shortcuts\#currentsection#\ReplaceThisPng.png
+LeftMouseUpAction=!ToggleConfig "BigSur\Widgets\Mini\Shortcuts\#currentsection#" "Item.ini"
 ToolTipText=#MakeYourOwn#
 
 
 [Custom4]
 Meter=Image
 MeterStyle=block
-imagename=#skinspath#\bigsur\Shortcuts\#currentsection#\ReplaceThisPng.png
-LeftMouseUpAction=!ToggleConfig "BigSur\Shortcuts\#currentsection#" "Item3.ini"
+imagename=#skinspath#\bigsur\Widgets\Mini\Shortcuts\#currentsection#\ReplaceThisPng.png
+LeftMouseUpAction=!ToggleConfig "BigSur\Widgets\Mini\Shortcuts\#currentsection#" "Item.ini"
 ToolTipText=#MakeYourOwn#
 
 

@@ -1,4 +1,5 @@
 [Variables]
+ScaleDPI=#ScaleDpi#
 
 Width=435
 Height=800

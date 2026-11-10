@@ -1,0 +1,6 @@
+[Variables]
+ScaleDPI=#ScaleDpi#
+PanelName=Spotify
+IconLocation=#@#\Graphics\Apps\Spotify.png
+PanelAction=%APPDATA%\Spotify\Spotify.exe
+

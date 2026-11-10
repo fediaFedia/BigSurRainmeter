@@ -1,0 +1,5 @@
+[Variables]
+ScaleDPI=#ScaleDpi#
+PanelName=Reddit
+IconLocation=#@#\Graphics\Web\Reddit.png
+PanelAction=http://Reddit.com/

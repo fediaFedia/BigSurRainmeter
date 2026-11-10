@@ -182,7 +182,7 @@ h=(35)*#scaledpi#
 X=(13)*#scaledpi#R
 y=r
 
-LeftMouseUpAction=!ToggleConfig "BigSur\Web\#currentsection#" "Item3.ini"
+LeftMouseUpAction=!ToggleConfig "BigSur\Widgets\Mini\Web\#currentsection#" "Item.ini"
 ToolTipText=#currentsection#
 imagename=#@#\Graphics\Thumbs\Web\#currentsection#.png
 MouseActionCursor=1
@@ -359,33 +359,33 @@ Meter=Image
 MeterStyle=block
 x=(225)*#scaledpi#
 y=(5)*#scaledpi#R
-imagename=#skinspath#\bigsur\Web\#currentsection#\ReplaceThisPng.png
-LeftMouseUpAction=!ToggleConfig "BigSur\Web\#currentsection#" "Item3.ini"
+imagename=#skinspath#\bigsur\Widgets\Mini\Web\#currentsection#\ReplaceThisPng.png
+LeftMouseUpAction=!ToggleConfig "BigSur\Widgets\Mini\Web\#currentsection#" "Item.ini"
 ImageTint=#IconTintSpecial#
 
 [Custom2]
 Meter=Image
 MeterStyle=block
-imagename=#skinspath#\bigsur\Web\#currentsection#\ReplaceThisPng.png
-LeftMouseUpAction=!ToggleConfig "BigSur\Web\#currentsection#" "Item3.ini"
+imagename=#skinspath#\bigsur\Widgets\Mini\Web\#currentsection#\ReplaceThisPng.png
+LeftMouseUpAction=!ToggleConfig "BigSur\Widgets\Mini\Web\#currentsection#" "Item.ini"
 ImageTint=#IconTintSpecial#
 [Custom3]
 Meter=Image
 MeterStyle=block
-imagename=#skinspath#\bigsur\Web\#currentsection#\ReplaceThisPng.png
-LeftMouseUpAction=!ToggleConfig "BigSur\Web\#currentsection#" "Item3.ini"
+imagename=#skinspath#\bigsur\Widgets\Mini\Web\#currentsection#\ReplaceThisPng.png
+LeftMouseUpAction=!ToggleConfig "BigSur\Widgets\Mini\Web\#currentsection#" "Item.ini"
 ImageTint=#IconTintSpecial#
 
 [Custom4]
 Meter=Image
 MeterStyle=block
-imagename=#skinspath#\bigsur\Web\#currentsection#\ReplaceThisPng.png
-LeftMouseUpAction=!ToggleConfig "BigSur\Web\#currentsection#" "Item3.ini"
+imagename=#skinspath#\bigsur\Widgets\Mini\Web\#currentsection#\ReplaceThisPng.png
+LeftMouseUpAction=!ToggleConfig "BigSur\Widgets\Mini\Web\#currentsection#" "Item.ini"
 ImageTint=#IconTintSpecial#
 
 [Custom5]
 Meter=Image
 MeterStyle=block
-imagename=#skinspath#\bigsur\Web\#currentsection#\ReplaceThisPng.png
-LeftMouseUpAction=!ToggleConfig "BigSur\Web\#currentsection#" "Item3.ini"
+imagename=#skinspath#\bigsur\Widgets\Mini\Web\#currentsection#\ReplaceThisPng.png
+LeftMouseUpAction=!ToggleConfig "BigSur\Widgets\Mini\Web\#currentsection#" "Item.ini"
 ImageTint=#IconTintSpecial#

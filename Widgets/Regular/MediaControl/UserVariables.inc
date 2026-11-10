@@ -1,0 +1,10 @@
+[Variables]
+ScaleDPI=#ScaleDpi#
+SoundFile=%WINDIR%\media\tada.wav
+AdditionalAction=
+PlaySound=0
+ShowCircle=0
+TextColor2Old=196,2,2
+Height=160
+CircleColor=0,0,0
+ControlsColor=255,255,255

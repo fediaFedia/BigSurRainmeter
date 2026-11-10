@@ -1,4 +1,4 @@
-BigSur 26 for Rainmeter
+BigSur 27 for Rainmeter
 =======================
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/53571889-9a99-4108-826c-27532863a941" />
 
@@ -18,6 +18,6 @@ __It also uses like 40-80MB of RAM and 0-1% CPU on my Core i5 Laptop, can't say 
 
 Enjoy 
 
-# FEATURES IN 1.4.0:
+# FEATURES IN 1.5.0:
 
 Check the [releases]([https://github.com/fediaFedia/BigSurRainmeter/releases](https://github.com/fediaFedia/BigSurRainmeter/releases)) page to see the details

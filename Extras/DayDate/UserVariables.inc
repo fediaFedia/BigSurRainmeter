@@ -1,4 +1,5 @@
 [Variables]
+ScaleDPI=#ScaleDpi#
 FontSize=50
 FontColor=255,255,255
 FontOpacity=255

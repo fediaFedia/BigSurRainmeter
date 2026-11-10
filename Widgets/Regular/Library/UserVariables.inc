@@ -1,0 +1,16 @@
+[Variables]
+ScaleDPI=#ScaleDpi#
+LibraryName=#Library#
+App1Icon=#@#\Graphics\Apps\spotify2.png
+App2Icon=#@#\Graphics\Apps\calculator.png
+App3Icon=#@#\Graphics\Apps\steam.png
+App4Icon=#@#\Graphics\Apps\files.png
+App5Icon=#@#\Graphics\Apps\word2.png
+App6Icon=#@#\Graphics\Apps\photoshop.png
+App1Action=spotify.exe
+App2Action=calc.exe
+App3Action=steam.exe
+App4Action=explorer.exe
+App5Action=winword.exe
+App6Action=photoshop.exe
+Height=160

@@ -1,0 +1,10 @@
+[Variables]
+ScaleDPI=#ScaleDpi#
+SoundFile=%WINDIR%\media\tada.wav
+AdditionalAction=
+PlaySound=1
+Height=160
+Timer4=30
+Timer2=5
+Timer1=10
+Timer3=15

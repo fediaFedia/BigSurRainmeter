@@ -4,17 +4,23 @@ Meter=String
 MeterStyle=Side
 Text=#About#
 Hidden=0
-Y=(361)*#scaledpi#
+Y=(441)*#scaledpi#
 x=(25)*#scaledpi#
 
 
+[27]
+Meter=Image
+ImageName=27.png
+h=(150)*#scaledpi#
+x=(200)*#scaledpi#
+y=(25)*#scaledpi#
 
 [Titlke]
 Meter=String
 x=(220)*#scaledpi#
-y=(40)*#scaledpi#
+y=(175)*#scaledpi#
 MeterStyle=Default
-Text=Big Sur 26 #Version#
+Text=Big Sur 27 #Version#
 fontsize=(19)*#scaledpi#
 LeftMouseUpAction=!execute ["http://omnimo.info/?ref=bigsur"]
 MouseActionCursor=1
@@ -23,7 +29,7 @@ ToolTipText=Visit website and check for updates
 [Menu]
 Meter=String
 MeterStyle=Default
-Text=A macOS Big Sur-inspired spinoff off of Omnimo
+Text=A macOS Big Sur-inspired spinoff off of Omnimo, check it#crlf#out if you want a Metro/Windows Phone/Zune inspired suite:
 x=(2)*#scaledpi#r
 y=(10)*#scaledpi#R
 fontsize=(9)*#scaledpi#
@@ -44,7 +50,7 @@ MeterStyle=Default
 x=r
 y=(10)*#scaledpi#R
 fontsize=(11)*#scaledpi#
-text=Created by fediaFedia#crlf#Thanks to niivu, oviotti, Maiguris, dtaf_alonso, smurfier, jsmorley, cfixd, Ciel#crlf#And the extraordinarily talented Rainmeter Community
+text=Created by fediaFedia#crlf#Thanks to niivu, oviotti, Maiguris, dtaf_alonso, smurfier, jsmorley, #crlf#cfixd, Ciel, JetComX, RicardoTM #crlf#And the extraordinarily talented Rainmeter Community
 stringstyle=bold
 
 [t2]
@@ -52,7 +58,7 @@ meter=string
 MeterStyle=Default
 x=r
 w=(420)*#scaledpi#
-h=(90)*#scaledpi#
+h=(120)*#scaledpi#
 ClipString=1
 fontcolor=#textcolor2#,120
 y=(10)*#scaledpi#R
@@ -67,6 +73,7 @@ imagename=#@#\Graphics\omnimo.jpg
 w=(125)*#scaledpi#
 h=(70)*#scaledpi#
 x=(560)*#scaledpi#
-y=(40)*#scaledpi#
+y=(180)*#scaledpi#
 LeftMouseUpAction=!execute ["http://omnimo.info?ref=bigsur"]
 mouseactioncursor=1
+

@@ -1,0 +1,2 @@
+This plugin is needed in Foobar to display the artwork correctly:
+https://poiru.github.io/foo-cad/

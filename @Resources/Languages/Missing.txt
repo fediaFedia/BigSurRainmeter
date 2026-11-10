@@ -1,0 +1,7 @@
+Feelslike
+MoreOfThisSize=More items of this size are in the Shortcuts/Web section
+Transparent
+MoreWidgetSizes=
+Music=
+YourNewsBriefing=Your News Briefing
+More news for you

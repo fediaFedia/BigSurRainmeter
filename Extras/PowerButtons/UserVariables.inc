@@ -1,4 +1,5 @@
 [Variables]
+ScaleDPI=#ScaleDpi#
 ItemSize=35
 SleepPrimary=Sleep
 ConfirmTimeout=10

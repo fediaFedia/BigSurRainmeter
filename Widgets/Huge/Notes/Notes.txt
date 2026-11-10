@@ -1,0 +1,5 @@
+[Variables]
+Notes=Click to edit. Press ENTER to save.
+Notes1=Click to edit. Press ENTER to save. Fixed!
+Notes2=Second! Click to edit. Press ENTER to save.
+Notes3=Third! Click to edit. Press ENTER to save. 
