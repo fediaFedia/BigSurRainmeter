@@ -8,6 +8,6 @@ CNN Top Stories=http://rss.cnn.com/rss/edition.rss
 BBC News=http://feeds.bbci.co.uk/news/rss.xml
 Reddit=http://www.reddit.com/.rss
 
-
+Good News=https://www.upworthy.com/feed/
 Google News=https://news.google.com/rss?hl=en-US&gl=en-US&ceid=US:en
 Yahoo News=https://news.yahoo.com/rss

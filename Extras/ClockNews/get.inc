@@ -1,2 +1,2 @@
 [Variables]
-get=<item>.*<title>(.*)</title>.*<link>(.*)</link>.*</item>.*
+get=(?:\<item>.*\<title>(.*)</title>.*\<link>(.*)</link>.*</item>|$).*
