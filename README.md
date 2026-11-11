@@ -1,6 +1,6 @@
 BigSur 27 for Rainmeter
 =======================
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/53571889-9a99-4108-826c-27532863a941" />
+<img width="600" alt="image" src="preview.png" />
 
 What is it?
 
