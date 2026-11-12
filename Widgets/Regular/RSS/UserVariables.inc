@@ -1,5 +1,5 @@
 [Variables]
 ScaleDPI=#ScaleDpi#
-RSSMain=https://www.bhaskar.com/rss-v1--category-1061.xml
+RSSMain=#BBC News#
 RSSMainName=BBC News
 Height=160
