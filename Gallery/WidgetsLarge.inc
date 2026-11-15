@@ -204,6 +204,10 @@ Text=Sunrise
 x=(282)*#scaledpi#
 y=(81)*#scaledpi#r
 
+[WordofthedayT]
+Meter=String
+MeterStyle=Label
+Text=Word of the Day
 
 
 
@@ -301,8 +305,9 @@ MeterStyle=block
 x=(225)*#scaledpi#
 y=(20)*#scaledpi#R
 
-
-
+[Wordoftheday]
+Meter=Image
+MeterStyle=block
 
 
 

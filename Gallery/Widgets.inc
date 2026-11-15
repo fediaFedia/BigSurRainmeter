@@ -266,6 +266,11 @@ Meter=String
 MeterStyle=Label
 Text=Trash
 
+[UptimeT]
+Meter=String
+MeterStyle=Label
+Text=Uptime
+
 [Multi]
 Meter=Image
 x=(225)*#scaledpi#
@@ -427,6 +432,9 @@ MeterStyle=block
 Meter=Image
 MeterStyle=block
 
+[Uptime]
+Meter=Image
+MeterStyle=block
 
 
 
