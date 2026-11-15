@@ -1,6 +1,6 @@
 [Variables]
 ScaleDPI=#ScaleDpi#
-PictureLocation=C:\Users\User\Desktop\Temp\Concorde aw6pMkDq_700w_0.jpg
+PictureLocation=#@#Graphics\Garden.jpg
 Height=160
 PanelName=#Photos#
 KeepAspectRatio=2

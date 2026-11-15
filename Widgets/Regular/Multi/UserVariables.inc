@@ -10,7 +10,7 @@ Height=160
 
 PickerEnabled=50
 Switch Interval=20
-Pictures Folder=C:\Users\User\OneDrive\Stuff\Wishlist
+Pictures Folder=%USERPROFILE%\Pictures
 Slideshow Speed=5
 Show Filename=[FileName]
 Keep Aspect Ratio=2
