@@ -41,7 +41,7 @@ UpdateDivider=-1
 [GlassBlur]
 Measure=Plugin
 Plugin=GlassBlur
-Type=Blur
+Type=#BlurModeOld#
 Radius=30
 ; BlurRegion=Type, TopX, TopY, BottomX, BottomY[, Radius] - Type 0 = whole skin, 1 = rectangle, 2 = rounded (overrides Radius)
 BlurRegion=2, (11-#Padding#)*#ScaleDpi#, (11-#Padding#)*#ScaleDpi#, (172*2+#Padding#+#Padding#)*#ScaleDpi#,(#height#+#Padding#+#Padding#)*#ScaleDpi#,(#radius#*#scaledpi#)

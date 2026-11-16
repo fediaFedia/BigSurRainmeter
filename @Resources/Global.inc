@@ -67,6 +67,7 @@ BlurZoom=1
 BlurImagePath=
 BlurDisabled=1
 BlurMode=LiquidGlasss
+BlurModeOld=Blur
 StrokeColorAngle=90
 IconTintSpecial=
 FastBlur=1

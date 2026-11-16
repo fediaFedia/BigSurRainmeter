@@ -22,7 +22,7 @@ y=0
 [GlassBlur]
 Measure=Plugin
 Plugin=GlassBlur
-Type=Blur
+Type=#BlurModeOld#
 ; BlurRegion=Type, X, Y, Width, Height[, Radius] - Type 0 = whole skin, 1 = rectangle, 2 = rounded (overrides Radius)
 BlurRegion=2, (47-#Padding#)*#ScaleDpi#, (43-#Padding#)*#ScaleDpi#, (96+#Padding#+#Padding#)*#ScaleDpi#, (95+#Padding#+#Padding#)*#ScaleDpi#,(#radius#)*#ScaleDpi#
 Disabled=#BlurDisabled#
